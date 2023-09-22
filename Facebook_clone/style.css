@@ -438,3 +438,20 @@ nav{
 .post-row a{
     color: #9a9a9a;
 }
+
+.load-more-button{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid #9a9a9a;
+    background-color: transparent;
+    border-radius: 0.4rem;
+}
+
+.footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 1rem 0 2rem;
+    font-size: 1.3rem;
+}
