@@ -308,3 +308,65 @@ nav{
     width: 3.5rem;
 }
 
+.write-post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    columns: #626262;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+
+}
+
+.user-profile img{
+    width: 4.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.user-profile p{
+    margin-bottom: -0.5rem;
+    font-weight: 500;
+    color: #626262;
+}
+
+.user-profile small{
+    font-size: 1.2rem;
+}
+
+
+.post-input-container{
+    padding-left: 5.5rem;
+    padding-top: 2rem;
+}
+
+.post-input-container textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 0.1rem solid #ccc;
+    resize: none;
+}
+
+.add-post-links{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.add-post-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+}
+
+.add-post-links a img{
+    width: 2rem;
+    margin-right: 1rem;
+}
