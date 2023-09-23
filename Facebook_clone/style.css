@@ -455,3 +455,57 @@ nav{
     padding: 1rem 0 2rem;
     font-size: 1.3rem;
 }
+
+.settings-menu{
+    position: absolute;
+    width: 90%;
+    max-width: 35rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    top: 100%;
+    right: 2%;
+}
+
+.user-profile a{
+    font-size: 1.2rem;
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.settings-menu-inner{
+    padding: 2rem;
+
+}
+
+.settings-menu hr{
+    border: 0;
+    height: 0.1rem;
+    background: #9a9a9a;
+    margin: 1.5rem 0;
+}
+
+
+.setting-links{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+
+.setting-links a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    color: #626262;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.setting-links .settings-icon{
+    width: 3.8rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
