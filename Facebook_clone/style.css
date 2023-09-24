@@ -6,9 +6,21 @@
 }
 :root{
     font-size: 65.5%;
+
+    --body-color: #efefef;
+    --nav-color:#1876f2;
+    --bg-color:#fff;
 }
+
+.dark-theme{
+    --body-color:#0a0a0a;
+    --nav-color:#000;
+    --bg-color:#000;
+}
+
 body{
-    background: #efefef;
+    background: var(--body-color);
+    transition: background 0.3s;
     font-size: 1.6rem;
 }
 
@@ -20,7 +32,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1876f2;
+    background:var(--nav-color);
     padding: 0.5rem 5%;
 }
 
@@ -60,7 +72,7 @@ nav{
 }
 
 .search-box{
-    background: #efefef;
+    background: var(--body-color);
     width: 35rem;
     border-radius: 2rem;
     display: flex;
@@ -117,7 +129,7 @@ nav{
     position: sticky;
     top: 7rem;
     align-self: flex-start;
-    background: #fff;
+    background: var(--bg-color);
     padding: 2rem;
     border-radius: 0.4rem;
     color: #626262;
@@ -310,7 +322,7 @@ nav{
 
 .write-post-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 0.6rem;
     padding: 2rem;
     columns: #626262;
@@ -373,7 +385,7 @@ nav{
 
 .post-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 0.6rem;
     padding: 2rem;
     color: #626262;
@@ -457,15 +469,21 @@ nav{
 }
 
 .settings-menu{
+    max-height: 0rem;
     position: absolute;
     width: 90%;
     max-width: 35rem;
-    background-color: #fff;
+    background-color: var(--bg-color);
     border-radius: 0.4rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
     overflow: hidden;
     top: 100%;
     right: 2%;
+    transition: max-height 0.3s;
+}
+
+.settings-menu-appear{
+    max-height: 45rem;
 }
 
 .user-profile a{
@@ -509,3 +527,30 @@ nav{
     margin-right: 1rem;
     border-radius: 50%;
 }
+
+#dark-btn{
+    position: absolute;
+    top: 2rem;
+    right:2rem;
+    background: #ccc;
+    width: 4.5rem;
+    border-radius: 1.5rem;
+    padding: 0.2rem 0.3rem;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left 0.5s, background 0.5s;
+}
+
+#dark-btn span{
+    width: 1.8rem;
+    height: 1.8rem;
+    background:#fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dark-btn.dark-btn-on{
+    padding-left: 2.3rem;
+    background: #000;
+}
+
