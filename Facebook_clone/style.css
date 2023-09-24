@@ -362,6 +362,7 @@ nav{
     outline: 0;
     border-bottom: 0.1rem solid #ccc;
     resize: none;
+    background:var(--bg-color);
 }
 
 .add-post-links{
@@ -551,6 +552,6 @@ nav{
 
 #dark-btn.dark-btn-on{
     padding-left: 2.3rem;
-    background: #000;
+    background: #0a0a0a;
 }
 
