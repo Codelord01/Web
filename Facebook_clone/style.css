@@ -579,3 +579,151 @@ nav{
     align-items: flex-start;
     justify-content: space-between;
 }
+
+.pd-row{
+    display: flex;
+    align-items: flex-start;
+}
+
+.pd-image{
+    width: 10rem;
+    margin-right: 2rem;
+    border-radius: 0.6rem;
+}
+
+.pd-row div h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.pd-row div p{
+    font-size: 1.3rem;
+}
+
+.pd-row div img{
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-top: 1.2rem;
+}
+
+.pd-right button{
+    background: #1876f2;
+    border: 0;
+    outline: 0;
+    padding: 0.6rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 0.3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.pd-right button img{
+    height: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+.pd-right button:first-child{
+    background: #e4e6eb;
+    color: #000;
+}
+
+.pd-right{
+    text-align: right;
+}
+
+.pd-right a{
+     background: #e4e6eb;
+     border-radius: 0.3rem;
+     padding: 1.2rem;
+     display: inline-flex;
+     margin-top: 3rem;
+}
+
+.pd-right a img{
+    width: 2rem;
+}
+
+.profile-info{
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.info-col{
+    flex-basis: 33%;
+}
+
+.post-col{
+    flex-basis: 65%;
+}
+
+.profile-intro{
+    background: var(--bg-color);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.4rem;
+}
+
+.profile-intro h3{
+    font-weight: 600;
+}
+
+.intro-text{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.intro-text img{
+    width: 1.5rem;
+    margin-bottom: -0.3rem;
+}
+
+.profile-intro hr{
+    border: 0;
+    height: 0.1rem;
+    background: #ccc;
+    margin: 2.4rem 0;
+}
+
+.profile-intro ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.profile-intro ul li img{
+    width: 26px;
+    margin-right: 1rem;
+}
+
+.title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-box a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 1.4rem;
+}
+
+
+.photo-box{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+}
+.photo-box div img{
+    width: 100%;
+    cursor: pointer;
+}
